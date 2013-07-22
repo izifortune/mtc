@@ -27,7 +27,7 @@ define([],function() {
         res.c_count = c;
         res.g_count = g;
         res.t_count = t;
-        var mtc_res = ((a * t) * 2) + ((g * c) * 4);
+        var mtc_res = ((a + t) * 2) + ((g + c) * 4);
         res.mtc = mtc_res;
         res.formula = formula;
         return res;
